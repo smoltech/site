@@ -7,6 +7,7 @@ env:
 
 jobs:
   tests:
+    runs-on: ubuntu-latest
     name: "Unit Tests"
     steps:
       - name: Checkout
