@@ -1,0 +1,11 @@
+{
+  "name": "smoltech-site",
+  "description": "SmolTech static site generator",
+  "repository": "https://github.com/smoltech/site",
+  "success_url": "/",
+  "keywords": ["rust", "rocket", "site", "smoltech"],
+  "website": "https://smoltech.com",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git"
+  }
+}
